@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/add_new_word"
+    android:id="@+id/newWordTextView" />
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/newWordEditText" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/add_new_word_definition"
+    android:id="@+id/definitionTextView" />
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/definitionEditText" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/add_new_word_pos"
+    android:id="@+id/posTextView" />
+
+<RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/radioGroup">
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/noun"
+        android:text="@string/noun"/>
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/verb"
+        android:text="@string/verb"/>
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/adjectif"
+        android:text="@string/adjectif"/>
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/adverb"
+        android:text="@string/adverb"/>
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/preposition"
+        android:text="@string/preposition"/>
+
+</RadioGroup>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/add_new_word_example"
+    android:id="@+id/exampleTextView" />
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/exampleEditText" />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/add_new_word_button"
+    android:id="@+id/add_new_word_button"
+    android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

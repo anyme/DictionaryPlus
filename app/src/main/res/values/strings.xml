@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DictionaryPlus</string>
+    <string name="add_word_button">Add Word</string>
+    <string name="add_new_word">Type new word</string>
+    <string name="add_new_word_definition">What does it mean?</string>
+    <string name="add_new_word_pos">What part of speech is it?</string>
+    <string name="add_new_word_example">Provide an example</string>
+    <string name="verb">Verb</string>
+    <string name="noun">Noun</string>
+    <string name="adjectif">Adjectif</string>
+    <string name="adverb">Adverb</string>
+    <string name="preposition">Preposition</string>
+    <string name="title_activity_add_new_word">AddNewWordActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_new_word_button">Add</string>
+    <string name="title_activity_word_details">WordDetails</string>
+
+</resources>
